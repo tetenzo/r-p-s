@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+.encabezado {
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #DAF5FA;
+    padding-inline: 3rem;
+    padding-block: 1.2rem;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.link-encabezado {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: azure;
+    color: black;
+    transition: 0.3s;
+}
+
+.link-encabezado:hover {
+    transform: scale(1.05);
+}
+
+a:visited {
+    color: black;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    height: 80vh;
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 2.5rem;
+}
+
+.texto-principal {
+    font-size: 1.1rem;
+    padding-inline: 4rem;
+}
+
+.jugada-opciones {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.jugada {
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #DAF5FA;
+    border-radius: 100px;
+    box-shadow: 4px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.jugada:hover {
+    transform: scale(1.03);
+}
+
+.jugada-img {
+    width: 10rem;
+    padding: 10px;
+}
+
+
+
+.container {
+    width: min(1100px, 92vw);
+    margin-inline: auto;
+    padding: 1.5rem 0
+}
+
+.small {
+    font-size: .9rem;
+    color: var(--muted)
+}
+
+header {
+    padding: 1.5rem 0 .5rem
+}
+
+.subtitle {
+    color: var(--muted);
+    margin: .2rem 0 0
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--ring);
+    border-radius: 16px;
+    padding: 1rem
+}
+
+.toolbar {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: .5rem;
+    padding-bottom: 1rem;
+}
+
+.question {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: .25rem 0 .7rem
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem
+}
+
+.meta {
+    display: flex;
+    gap: 1rem;
+    margin: .6rem 0;
+    color: var(--muted)
+}
+
+.feedback {
+    min-height: 1.4rem
+}
+
+.actions {
+    display: flex;
+    gap: .5rem;
+    margin-top: .6rem
+}
+
+.btn {
+    border: 1px solid var(--ring);
+    color: var(--text);
+    padding: .6rem .9rem;
+    border-radius: 12px;
+    cursor: pointer
+}
+
+.btn.primary {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: var(--primary);
+    font-weight: 700;
+    background-color: #f8f7c0;
+    transition: 0.2s;
+}
+
+.btn.primary:hover {
+    transform: scale(1.04);
+}
+
+.btn.danger {
+    background: var(--danger);
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: .5rem 0;
+    max-height: 240px;
+    overflow: auto;
+    border: 1px solid var(--ring);
+    border-radius: 12px
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem .6rem;
+    border-bottom: 1px solid var(--ring)
+}
+
+.smalltext li {
+    font-size: .9rem
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr
+    }
+
+    .options {
+        grid-template-columns: 1fr
+    }
+}
+
+
+
+
+/* ===========================
+   ESTILOS EXCLUSIVOS DEL INDEX
+   =========================== */
+
+
+
+   
+.index-header {
+    margin-bottom: 2rem;
+    justify-content: start;
+}
+
+.index-page {
+    --bg: #ffffff;
+    --card: #ffffff;
+    --ring: #d1d5db;
+    --text: #0f172a;
+    --muted: #64748b;
+    --primary: #f8f7c0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+/* Contenedor principal */
+.index-page .index-container {
+    width: min(1100px, 92vw);
+    margin-inline: auto;
+    padding: 2rem 0 3rem;
+}
+
+/* Encabezado */
+.index-page .index-header h1 {
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin-bottom: .25rem;
+}
+
+.index-page .index-header p {
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+/* Grid de tarjetas */
+.index-page .index-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* Tarjeta */
+.index-page .index-card {
+    background: var(--card);
+    border: 1px solid var(--ring);
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .04);
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.index-page .index-card h2 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
+
+.index-page .index-card p {
+    color: var(--muted);
+}
+
+.index-page .index-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, .06);
+}
+
+/* Botón */
+.index-page .index-btn {
+    align-self: start;
+    margin-top: .25rem;
+    background: var(--primary);
+    color: #111827;
+    border: 1px solid var(--ring);
+    padding: .6rem 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.index-page .index-btn:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.02);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .06);
+}
+
+/* Enlaces del index (sin morado visitado) */
+.index-page a,
+.index-page a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .index-page .index-grid {
+        grid-template-columns: 1fr;
+    }
+}

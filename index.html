@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="style.css">
-    <title>Piedra-Papel-Tijeras</title>
-</head>
-<body>
-    <header class="encabezado">
-        <a class="link-encabezado" href="index.html">Volver a jugar</a>
-    </header>
-    <main class="cuerpo">
-        <h1 class="titulo-principal">Piedra-Papel-Tijeras</h1>
-        <p class="texto-principal">Este simulador recrea un juego interactivo de piedra, papel o tijeras entre un usuario y la computadora. El jugador introduce su elección y el sistema genera una jugada aleatoria para la computadora, determinando el resultado de cada partida. Además, el simulador lleva un registro de victorias, derrotas y empates, permitiendo al usuario visualizar su desempeño al finalizar la sesión.</p>
-        <p class="texto-principal">El objetivo principal es practicar la implementación de lógica condicional, uso de funciones y manejo de interacciones en JavaScript, combinando la experiencia de juego con un ejercicio de programación básica.</p>
-    </main>
-    <footer class="pie-de-pagina">
-
-    </footer>
-<script src="main.js"></script>
-</body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Menú de Juegos </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+    </head>
+    <body class="index-page">
+            <header class="encabezado index-header">
+                <h1>Juegos</h1>
+            </header>
+            <main class="index-grid index-container">
+                <section class="index-card">
+                    <h2>Piedra-Papel-Tijeras</h2>
+                    <p>Juego clásico. (usa tu carpeta <code>/rps</code>)</p>
+                    <a class="index-btn" href="./templates/rps.html">Abrir
+                        PPT</a>
+                </section>
+                <section class="index-card">
+                    <h2>Trivia</h2>
+                    <p>Preguntas con opciones, puntaje y almacenamiento en
+                        LocalStorage.</p>
+                    <a class="index-btn" href="./templates/trivia.html">Abrir
+                        Trivia</a>
+                </section>
+            </main>
+    </body>
 </html>

@@ -1,0 +1,172 @@
+[
+    {
+        "text": "¿En qué continente está Argentina?",
+        "correct": "América",
+        "options": [
+            "Asia",
+            "África",
+            "América",
+            "Europa"
+        ]
+    },
+    {
+        "text": "¿Cuántos minutos tiene una hora?",
+        "correct": "60",
+        "options": [
+            "30",
+            "45",
+            "60",
+            "90"
+        ]
+    },
+    {
+        "text": "¿Cuál es la capital de España?",
+        "correct": "Madrid",
+        "options": [
+            "Barcelona",
+            "Madrid",
+            "Valencia",
+            "Sevilla"
+        ]
+    },
+    {
+        "text": "¿Cuál es el océano más grande del mundo?",
+        "correct": "Océano Pacífico",
+        "options": [
+            "Océano Atlántico",
+            "Océano Índico",
+            "Océano Ártico",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "text": "¿Quién pintó la Mona Lisa?",
+        "correct": "Leonardo da Vinci",
+        "options": [
+            "Leonardo da Vinci",
+            "Miguel Ángel",
+            "Vincent van Gogh",
+            "Pablo Picasso"
+        ]
+    },
+    {
+        "text": "¿Cuál es la capital de Australia?",
+        "correct": "Canberra",
+        "options": [
+            "Sídney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+        ]
+    },
+    {
+        "text": "¿Qué elemento químico tiene como símbolo O?",
+        "correct": "Oxígeno",
+        "options": [
+            "Oro",
+            "Oxígeno",
+            "Osmio",
+            "Ozono"
+        ]
+    },
+    {
+        "text": "¿En qué continente se encuentra Egipto?",
+        "correct": "África",
+        "options": [
+            "África",
+            "Asia",
+            "Europa",
+            "América"
+        ]
+    },
+    {
+        "text": "¿Quién escribió 'Cien años de soledad'?",
+        "correct": "Gabriel García Márquez",
+        "options": [
+            "Mario Vargas Llosa",
+            "Gabriel García Márquez",
+            "Julio Cortázar",
+            "Isabel Allende"
+        ]
+    },
+    {
+        "text": "¿Qué planeta es conocido como el planeta rojo?",
+        "correct": "Marte",
+        "options": [
+            "Venus",
+            "Marte",
+            "Júpiter",
+            "Mercurio"
+        ]
+    },
+    {
+        "text": "¿Cuál es el río más largo del mundo?",
+        "correct": "Nilo",
+        "options": [
+            "Nilo",
+            "Amazonas",
+            "Yangtsé",
+            "Misisipi"
+        ]
+    },
+    {
+        "text": "¿Qué país es famoso por la Torre Eiffel?",
+        "correct": "Francia",
+        "options": [
+            "Italia",
+            "Francia",
+            "Alemania",
+            "España"
+        ]
+    },
+    {
+        "text": "¿En qué idioma fue escrito originalmente 'Don Quijote de la Mancha'?",
+        "correct": "Español",
+        "options": [
+            "Francés",
+            "Español",
+            "Inglés",
+            "Portugués"
+        ]
+    },
+    {
+        "text": "¿Qué científico propuso la teoría de la relatividad?",
+        "correct": "Albert Einstein",
+        "options": [
+            "Isaac Newton",
+            "Nikola Tesla",
+            "Albert Einstein",
+            "Galileo Galilei"
+        ]
+    },
+    {
+        "text": "¿Cuál es el animal terrestre más rápido?",
+        "correct": "Guepardo",
+        "options": [
+            "León",
+            "Guepardo",
+            "Tigre",
+            "Caballo"
+        ]
+    },
+    {
+        "text": "¿Qué moneda se usa en Japón?",
+        "correct": "Yen",
+        "options": [
+            "Yuan",
+            "Yen",
+            "Won",
+            "Dólar"
+        ]
+    },
+    {
+        "text": "¿Quién fue el primer presidente de Estados Unidos?",
+        "correct": "George Washington",
+        "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "Abraham Lincoln",
+            "Benjamin Franklin"
+        ]
+    }
+]

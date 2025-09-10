@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trivia (Minimal) – Solo Botones</title>
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header class="encabezado">
+            <a class="link-encabezado" href="../index.html">Volver al menú</a>
+        </header>
+
+        <main class="container grid">
+            <section class="card">
+                <div class="toolbar">
+                    <label>
+                        Dificultad
+                        <select id="difficulty">
+                            <option value="facil">Fácil (10s)</option>
+                            <option value="medio">Medio (7s)</option>
+                            <option value="dificil">Difícil (5s)</option>
+                        </select>
+                    </label>
+                    <button id="start" class="btn primary">Empezar</button>
+                </div>
+
+                <div id="play" class="play" hidden>
+                    <p id="q-text" class="question"></p>
+                    <div id="q-options" class="options"></div>
+                    <div class="meta">
+                        <span>Tiempo: <strong id="timer">0</strong>s</span>
+                        <span>Puntaje: <strong id="score">0</strong></span>
+                        <span>Preg: <strong id="q-index">1</strong>/<span
+                                id="q-total">1</span></span>
+                    </div>
+                    <div id="feedback" class="feedback"
+                        aria-live="polite"></div>
+                    <div class="actions">
+                        <button id="next" class="btn"
+                            disabled>Siguiente</button>
+                        <button id="restart"
+                            class="btn danger">Reiniciar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Mejores puntajes</h2>
+                <ol id="highscores" class="list"></ol>
+                <h3>Historial (últimos 10)</h3>
+                <ul id="history" class="list smalltext"></ul>
+            </section>
+        </main>
+
+        <script src="../js/helpers.js"></script>
+        <script src="../js/trivia.js"></script>
+    </body>
+</html>

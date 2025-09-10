@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Piedra-Papel-Tijeras</title>
+    </head>
+    <body>
+        <header class="encabezado">
+            <a class="link-encabezado" href="../index.html">Volver al menú</a>
+        </header>
+
+        <main class="cuerpo">
+            <h1 class="titulo-principal">Piedra-Papel-Tijeras</h1>
+            <h2>¡Elegí tu jugada!</h2>
+
+            <div class="jugada-opciones">
+                <button onclick="jugar('piedra')" class="jugada">
+                    <img class="jugada-img" id="piedra"
+                        src="../img/piedra.png" />
+                </button>
+                <button onclick="jugar('papel')" class="jugada">
+                    <img class="jugada-img" id="papel" src="../img/papel.png" />
+                </button>
+                <button onclick="jugar('tijeras')" class="jugada">
+                    <img class="jugada-img" id="tijeras"
+                        src="../img/scissors.png" />
+                </button>
+            </div>
+
+            <section id="panel-estado" class="panel-estado">
+
+                <p id="resultado" class="texto-principal">Hacé tu jugada 👇</p>
+
+                <p class="texto-principal">
+                    La computadora eligió: <strong id="cpu-eleccion">—</strong>
+                </p>
+
+                <div class="marcador texto-principal">
+                    <span>Victorias: <strong id="v-count">0</strong></span> ·
+                    <span>Derrotas: <strong id="d-count">0</strong></span> ·
+                    <span>Empates: <strong id="e-count">0</strong></span>
+                </div>
+
+                <button id="reiniciar" class="jugada texto-principal">
+                    Reiniciar marcador
+                </button>
+            </section>
+        </main>
+
+        <script src="../js/helpers.js"></script>
+        <script src="../js/rps.js"></script>
+    </body>
+</html>
